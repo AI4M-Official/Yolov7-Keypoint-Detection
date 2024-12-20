@@ -39,6 +39,41 @@ pip install -r requirements.txt
 Place your prepared dataset into the 'dataset' folder within the cloned repository.
 The 'dataset' folder has a blueprint of the expected .yaml file for reference.
 
+Organize your dataset in the following structure before placing it into the `Dataset` folder of the repository:
+
+```
+Dataset/
+  data.yaml
+  train/
+    labels/
+      img1.txt
+      img2.txt
+      ...
+    images/
+      img1.jpg
+      img2.jpg
+      ...
+  val/
+    labels/
+      img1.txt
+      img2.txt
+      ...
+    images/
+      img1.jpg
+      img2.jpg
+      ...
+  test/
+    labels/
+      img1.txt
+      img2.txt
+      ...
+    images/
+      img1.jpg
+      img2.jpg
+      ...
+```
+
+---
 ---
 
 ### Step 5: Download the required .pt model
