@@ -1,0 +1,5 @@
+*.pt
+runs/*
+*__pycache__*
+dataset/*
+!dataset/coco.yaml
